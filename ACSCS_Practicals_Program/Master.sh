@@ -12,4 +12,6 @@ mkdir "LAB_0$lab_no"
 cd "LAB_0$lab_no"
 
 echo "# $question" >> README.MD
-touch Solution.sh
+echo "#!/bin/bash" >>  Solution.sh
+
+chmod +x Solution.sh
